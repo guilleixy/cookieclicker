@@ -1,0 +1,18 @@
+{
+  "name": "cookie-clicker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "host": "vite --host"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2"
+  }
+}

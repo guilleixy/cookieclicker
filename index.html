@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:900&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <title>Cookie Clicker</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cookie Clicker</h1>
+      <h3>Jugando cómo: <span id="nombre">Invitado</span></h3>
+      <input type="text" id="username" placeholder="Introduce tu nombre">
+      <input type="button" id="enviarBtn" value="Enviar">
+    </header>
+    <div class="wrapper">
+      <div>
+        <p>Cookies totales:<span id="marcador">0</span></p>
+        <p>Tus cookies:<span id="marcadorPersonal">0</span></p>
+        <img id="cookie" src="perfectCookie.png" alt="">
+      </div>
+      <div>
+        <h2>Top 10:</h2>
+        <ol id="top10">
+
+        </ol>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
